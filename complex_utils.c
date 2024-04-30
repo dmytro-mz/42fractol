@@ -1,6 +1,6 @@
 #include "fractol.h"
 
-t_complex add(t_complex a,t_complex b)
+t_complex add(t_complex a, t_complex b)
 {
 	t_complex c;
 

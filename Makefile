@@ -16,7 +16,8 @@ SRCS = $(NAME).c \
         complex_utils.c \
         fractal_types.c \
         parse_params.c \
-        set_hooks.c
+        set_hooks.c \
+		draw.c
 OBJS = $(SRCS:.c=.o)
 INCS = $(NAME).h \
        $(LIBFT_DIR)/libft/libft.h \

@@ -16,6 +16,8 @@ void parse_params(int ac, char **av, t_state *state) // TODO parse complex numbe
         state->fract_func_ptr = mandelbrot;
     else
         show_help();
+    state->c.x = -0.5251993; // TODO read from av
+    state->c.y = -0.5251993; // TODO read from av
 }
 
 void show_help(void)

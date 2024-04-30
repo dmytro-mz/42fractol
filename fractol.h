@@ -21,13 +21,16 @@ typedef struct s_state{
 	void *mlx_ptr;
     void *win_ptr;
     void *img_ptr;
-    char *img_data;
+    int *img_data;
     int bits_per_pixel;
     int size_line;
     int endian;
+    t_complex c;
     double zoom;
-    int shift_x;
-    int shift_y;
+    double shift_x;
+    double shift_y;
+    int color;
+    int iter_tresh;
     void (*fract_func_ptr)(void *);
 }       t_state;
 
@@ -37,5 +40,6 @@ void mandelbrot();
 
 void parse_params(int ac, char **av, t_state *state);
 void set_hooks(t_state *state);
+void draw(t_state *s);
 
 #endif
