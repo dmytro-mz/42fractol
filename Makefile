@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: dmoroz <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/05/01 20:56:12 by dmoroz            #+#    #+#              #
+#    Updated: 2024/05/01 20:56:12 by dmoroz           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 C_PRECOMPILE_FLAGS = -c
@@ -17,7 +29,8 @@ SRCS = $(NAME).c \
         fractal_types.c \
         parse_params.c \
         set_hooks.c \
-		draw.c
+		draw.c \
+		show_help.c
 OBJS = $(SRCS:.c=.o)
 INCS = $(NAME).h \
        $(LIBFT_DIR)/libft/libft.h \
