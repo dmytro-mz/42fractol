@@ -6,7 +6,7 @@
 /*   By: dmoroz <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/01 20:58:41 by dmoroz            #+#    #+#             */
-/*   Updated: 2024/05/01 21:35:01 by dmoroz           ###   ########.fr       */
+/*   Updated: 2024/05/02 11:11:41 by dmoroz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	show_help(void)
 	ft_putendl_fd("", STDOUT_FILENO);
 	ft_putendl_fd("Example:", STDOUT_FILENO);
 	ft_putendl_fd("fractol J - 0 5251993 - 0 5251993", STDOUT_FILENO);
-    ft_putendl_fd("fractol J + 0 4 + 0 6", STDOUT_FILENO);
+	ft_putendl_fd("fractol J + 0 4 + 0 6", STDOUT_FILENO);
 	ft_putendl_fd("fractol M", STDOUT_FILENO);
 	ft_putendl_fd("", STDOUT_FILENO);
 	ft_putendl_fd("Fractal types:", STDOUT_FILENO);
