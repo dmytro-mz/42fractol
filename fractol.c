@@ -6,7 +6,7 @@
 /*   By: dmoroz <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/01 20:52:23 by dmoroz            #+#    #+#             */
-/*   Updated: 2024/05/01 21:29:58 by dmoroz           ###   ########.fr       */
+/*   Updated: 2024/05/02 11:13:45 by dmoroz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	init_state(t_state *state)
 	state->shift_x = 0;
 	state->shift_y = 0;
 	state->color = 0x00F100;
-	state->iter_tresh = 1000;
+	state->iter_tresh = 100;
 }
 
 void	clean_n_exit(t_state *s)

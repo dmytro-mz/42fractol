@@ -55,8 +55,8 @@ int	mouse_hook(int button, int x, int y, t_state *s)
 	else if (button == 5)
 	{
 		s->zoom = s->zoom / ZOOM_MULT + 1e-5;
-		s->shift_x = s->shift_x / ZOOM_MULT - (x - WINDOW_WIDTH / 2) * 0.9;
-		s->shift_y = s->shift_y / ZOOM_MULT - (y - WINDOW_HEIGHT / 2) * 0.9;
+		s->shift_x = s->shift_x / ZOOM_MULT - (x - WINDOW_WIDTH / 2) * 0.6;
+		s->shift_y = s->shift_y / ZOOM_MULT - (y - WINDOW_HEIGHT / 2) * 0.6;
 	}
 	draw(s);
 	return (0);
